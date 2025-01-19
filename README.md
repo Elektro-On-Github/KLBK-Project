@@ -10,7 +10,7 @@ speaker.ico ---> Icona da inserire durante la compilazione dello script (facolta
 Step 1 -- Editare lo script
 
 Prima di compilare lo script é necessario modificarlo a seconda delle proprie esigenze. 
-In poche parole devi andare a modificare il parametro "url". Puoi inserire l'url di qualsiasi server web,
+In poche parole devi andare a modificare il parametro "url" e l'url del ciclo While che trovi ai piedi del codice. Puoi inserire l'url di qualsiasi server web,
 sia locale (192.168.x.x, 10.x.x.x, ecc...) o pubblico, compresi domini (esempio: listener.com), per configurare un server pubblico con dominio
 devi aprire la porta 80 del tuo router/modem oppure abiliti il DMZ (nelle impostazioni del modem) e inserisci l'ip locale. 
 (Consiglio di impostare un IP locale statico per hostare un server!! Altrimenti dovrai continuamente cambiare le impostazioni del DMZ!!)
