@@ -26,6 +26,8 @@ ed incolla il codice.
 
 Step 3 --- Compilare 
 
+NB!: PRIMA DI COMPILARE DEVI INSTALLARE LE LIBRERIE NECESSARIE PER LO SCRIPT!!
+
 Adesso che hai creato un nuovo file con il codice offuscato lo devi compilare.
 La sintassi del comando Pyinstaller é:
 
