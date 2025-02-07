@@ -43,8 +43,9 @@ Hai compilato lo script! Adesso per vedere i tasti premuti dalla vittima control
 mentre se vuoi eseguire gli scrpt da remoto basta modificare il file "default.txt" ed entro 10 secondi verrano eseguiti ;)
 
 
-
 Se hai dubbi su qualcosa scrivimi un commento nel video: https://youtu.be/WUCcFfZopac
 
 
 Buon hacking!
+
+AGGIORNAMENTO: Ho aggiunto il file "unin.bat", esso va a reinstallare Windows Defender e rimuovere tutti gli eseguibili che si trovano nella cartella di avvio di Windows, quindi rimuovere completamente KLBK dal PC (lo script deve essere eseguito su Windows PE se non si é amministratori nella macchina in uso.)
